@@ -18,7 +18,7 @@ public class TestController {
 	// URL로 Get localhost:8080/test/testGetMapping를 호출할 경우 testController()가 호출된다.
 		@GetMapping( "/testGetMapping") //메서드의 리소스와 HTTP메서드를 지정한다.
 		public String testControllerWithPath() {
-			return "Hello World! testGetMapping!!";
+			return "Hello World! testGetMapping!! branch 생성인가";
 		
 		}
 }
